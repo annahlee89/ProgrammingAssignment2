@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is usually a costly computation and there may be some benefit 
+## to caching the inverse of a matrix rather than compute it repeatedly. 
 
-## Write a short comment describing this function
+## This function creates a special class of matrices that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   n <- NULL
